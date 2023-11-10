@@ -1,0 +1,373 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Blinker, sans-serif;
+  line-height: 1.25em;
+}
+
+body {
+  background: #fedfe9;
+}
+
+.fa-cloud {
+  color: white;
+}
+
+.logo {
+  display: flex;
+  justify-content: center;
+
+  padding: 0.2em 1em;
+}
+
+strong {
+  font-size: 3em;
+  font-weight: 600;
+  color: white;
+}
+
+nav {
+  background: linear-gradient(#303030, #000000);
+  border-bottom: 0.4em solid #fc074c;
+  box-shadow: 0px 2px 7px rgb(255, 255, 255);
+  height: 80px;
+  z-index: 1;
+  position: relative;
+}
+
+a {
+  text-decoration: none;
+}
+
+nav .button {
+  margin: 0em 1em;
+}
+
+.button {
+  color: #fc074c;
+  background-color: white;
+  border-radius: 4px;
+  display: flex;
+  justify-content: center;
+}
+
+section:first-of-type,
+.buy-now-section {
+  background: linear-gradient(#303030, #000000);
+}
+
+header {
+  padding: 4.5em 0em;
+}
+
+h1,
+.sign-up h2 {
+  color: white;
+}
+
+h1 {
+  font-size: 3em;
+  margin-bottom: 0.5em;
+}
+
+p,
+.seperator {
+  color: white;
+}
+
+h2 {
+  font-size: 2em;
+  margin: 1em;
+  text-align: center;
+}
+
+.who-we-are {
+  margin-bottom: 1em;
+  padding: 2em;
+  width: 90%;
+  margin: auto;
+}
+
+.who-we-are p {
+  max-width: 550px;
+  font-size: 1.5em;
+}
+
+.sign-up {
+  background-color: #fc074c;
+  padding: 1.5em;
+  border-radius: 4px;
+  margin: auto;
+  width: 90%;
+}
+
+.button {
+  padding: 0.5em 1em;
+}
+
+.button-box {
+  display: flex;
+  justify-content: space-between;
+}
+
+.button-box .button {
+  width: 45%;
+}
+
+input {
+  width: 100%;
+  padding: 1em;
+  height: 3em;
+  margin-bottom: 1em;
+  border-radius: 4px;
+}
+
+.seperator,
+form p:last-of-type {
+  text-align: center;
+  margin: 1.5em;
+}
+
+form p:last-of-type a {
+  color: white;
+  text-decoration: underline;
+}
+
+.who-we-work-with {
+  background-color: #fedfe9;
+}
+
+.who-we-work-with h2 {
+  color: #fc074c;
+  padding: 2em 0.5em 0em 0.3em;
+}
+
+.logos {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding-bottom: 2em;
+}
+
+.logos img {
+  width: 12em;
+  padding: 0em 1em;
+}
+
+/* */
+.info i {
+  color: white;
+  padding: 0.7em;
+  background-color: #fc074c;
+  border-radius: 50%;
+  transform: translate(150%, -50%);
+  font-size: 2em;
+}
+
+.section-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.buy-now-section {
+  padding: 1em;
+}
+
+.info {
+  background: linear-gradient(#b8b8b8, #4a4a4a);
+}
+
+.price {
+  text-align: center;
+  padding: 0.5em;
+}
+
+.price strong {
+  font-size: 1em;
+}
+
+.buy-now {
+  background-color: #fc074c;
+  text-align: center;
+  color: white;
+  font-size: 1.5em;
+  padding: 0.5em;
+}
+
+.features ol {
+  list-style: none;
+  text-align: center;
+  margin: 2em 3.5em;
+  width: 200px;
+}
+
+ol li {
+  color: white;
+}
+
+.info {
+  margin: 2em 1em;
+}
+
+/* */
+
+.built-for-business {
+  padding: 3em;
+  background-color: #fedfe9;
+}
+
+ul {
+  list-style: none;
+}
+
+li .fas {
+  margin: 1em 0em;
+  color: #fc074c;
+}
+
+li p {
+  color: #000000;
+  margin-bottom: 1em;
+}
+
+h3,
+li a {
+  color: #fc074c;
+  margin-bottom: 1em;
+}
+
+li span {
+  color: #fc074c;
+  margin: 1em;
+}
+
+@media screen and (min-width: 750px) {
+  ul li {
+    width: 45%;
+    padding: 1em;
+  }
+  ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+}
+
+@media screen and (min-width: 1050px) {
+  ul {
+    flex-wrap: nowrap;
+  }
+
+  footer div {
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
+
+/*  */
+
+footer {
+  background-color: #fc074c;
+  padding: 3em;
+  display: flex;
+}
+
+dd a {
+  color: white;
+}
+dt {
+  color: #000000;
+  font-size: 1.5em;
+  margin: 0.5em 0em;
+}
+dl {
+  margin: 1em 4em;
+}
+
+@media screen and (max-width: 600px) {
+  nav a {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 600px) {
+  .left-nav ol {
+    list-style: none;
+    display: flex;
+  }
+
+  .left-nav ol a {
+    color: white;
+    padding: 1em;
+  }
+
+  .logo {
+    justify-content: start;
+  }
+
+  .inner-nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .left-nav {
+    display: flex;
+    align-items: center;
+  }
+
+  .left-nav ol {
+    padding: 1em;
+  }
+
+  .inner-nav .button {
+    border: 1px solid #fc074c;
+  }
+
+  .sign-up {
+    width: 550px;
+  }
+
+  .who-we-are {
+    width: 600px;
+  }
+}
+
+@media screen and (max-width: 760px) {
+  .inner-nav .button {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 1050px) {
+  header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .sign-up {
+    margin: 4em;
+  }
+
+  .who-we-are {
+    width: 400px;
+    margin: 2em;
+  }
+
+  h1 {
+    text-align: start;
+  }
+}
+
+.inner-nav,
+header,
+.who-we-work-with,
+.section-wrapper,
+.built-for-business,
+footer div {
+  max-width: 1200px;
+  margin: auto;
+}
